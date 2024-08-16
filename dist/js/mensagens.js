@@ -238,7 +238,7 @@ function mostrarMensagemDoDia() {
     // const hoje = new Date();
     // const diaDoAno = Math.floor((hoje - new Date(hoje.getFullYear(), 0, 0)) / 1000 / 60 / 60 / 24);
     // document.getElementById('message').innerText = "\"" + mensagens[diaDoAno % mensagens.length] + "\"";
-    const indiceAleatorio = Math.floor(Math.random() * array.length);
+    const indiceAleatorio = Math.floor(Math.random() * mensagens.length);
     document.getElementById('message').innerText = "\"" + mensagens[indiceAleatorio] + "\"";
 }
 
