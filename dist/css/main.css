@@ -204,7 +204,7 @@ h1 {
   }
   .has-line {
     text-align: center;
-    padding-left: 50px;
+    padding-left: 0px;
   }
   .has-line::before {
     display: none;
@@ -246,7 +246,7 @@ h1 {
   }
   .has-line {
     text-align: center;
-    padding-left: 30px;
+    padding-left: 0px;
   }
   .has-line::before {
     display: none;
